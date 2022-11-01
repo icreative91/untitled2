@@ -1,17 +1,15 @@
-import lesson4hw.OrderSecond;
 import org.junit.jupiter.api.Test;
 
-public class ObjectsPractice {
+public class ObjectsPracticeOrder {
     @Test
-
     public void workingWithOrders() {
-        OrderSecond firstOrder = new OrderSecond();
+        Order firstOrder = new Order();
 
         firstOrder.setTotalPrice(12.34);
         firstOrder.setAddress("Rigas str.22");
         firstOrder.setItemCount(9);
 
-        OrderSecond secondOrder = new OrderSecond();
+        Order secondOrder = new Order();
         secondOrder.setTotalPrice(55.67);
         secondOrder.setAddress("Lubanas str. 43-13");
         secondOrder.setItemCount(3);

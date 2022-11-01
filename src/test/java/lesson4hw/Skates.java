@@ -1,17 +1,16 @@
 package lesson4hw;
 
-public class Kitchen {
+public class Skates {
     private double lenght;
     private double width;
-    private double height;
     private double weight;
+    private String model;
     private String colour;
+    private String iceskates;
+    private String inlineSkates;
     private String material;
-    private int platesDishes;
-    private int magnets;
 
     //---------------GETTERS/SETTERS---------------
-
 
     public double getLenght() {
         return lenght;
@@ -29,20 +28,20 @@ public class Kitchen {
         this.width = width;
     }
 
-    public double getHeight() {
-        return height;
-    }
-
-    public void setHeight(double height) {
-        this.height = height;
-    }
-
     public double getWeight() {
         return weight;
     }
 
     public void setWeight(double weight) {
         this.weight = weight;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
     }
 
     public String getColour() {
@@ -53,27 +52,27 @@ public class Kitchen {
         this.colour = colour;
     }
 
+    public String getIceskates() {
+        return iceskates;
+    }
+
+    public void setIceskates(String iceskates) {
+        this.iceskates = iceskates;
+    }
+
+    public String getInlineSkates() {
+        return inlineSkates;
+    }
+
+    public void setInlineSkates(String inlineSkates) {
+        this.inlineSkates = inlineSkates;
+    }
+
     public String getMaterial() {
         return material;
     }
 
     public void setMaterial(String material) {
         this.material = material;
-    }
-
-    public int getPlatesDishes() {
-        return platesDishes;
-    }
-
-    public void setPlatesDishes(int platesDishes) {
-        this.platesDishes = platesDishes;
-    }
-
-    public int getMagnets() {
-        return magnets;
-    }
-
-    public void setMagnets(int magnets) {
-        this.magnets = magnets;
     }
 }

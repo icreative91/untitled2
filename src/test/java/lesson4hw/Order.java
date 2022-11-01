@@ -1,7 +1,9 @@
 package lesson4hw;
 
-public class OrderSecond {
-    //-------------ATTRIBUTES----------
+
+public class Order {
+    //---------ATTRIBUTES------
+
     private double totalPrice;
     private double weight;
     private double volume;
@@ -10,9 +12,10 @@ public class OrderSecond {
     private double height;
     private double depth;
     private String address;
-    private boolean deliveryRequest;
+    private boolean deliveryRequested;
 
-    //----------GETTERS/SETTERS
+
+    //-------------------GETTERS/SETTERS
 
 
     public double getTotalPrice() {
@@ -79,11 +82,11 @@ public class OrderSecond {
         this.address = address;
     }
 
-    public boolean isDeliveryRequest() {
-        return deliveryRequest;
+    public boolean isDeliveryRequested() {
+        return deliveryRequested;
     }
 
-    public void setDeliveryRequest(boolean deliveryRequest) {
-        this.deliveryRequest = deliveryRequest;
+    public void setDeliveryRequested(boolean deliveryRequested) {
+        this.deliveryRequested = deliveryRequested;
     }
 }

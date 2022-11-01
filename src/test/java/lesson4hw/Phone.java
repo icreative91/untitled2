@@ -1,14 +1,14 @@
 package lesson4hw;
 
-public class Kitchen {
+public class Phone {
     private double lenght;
     private double width;
     private double height;
     private double weight;
     private String colour;
-    private String material;
-    private int platesDishes;
-    private int magnets;
+    private boolean plastic;
+    private boolean glass;
+    private String s;
 
     //---------------GETTERS/SETTERS---------------
 
@@ -53,27 +53,27 @@ public class Kitchen {
         this.colour = colour;
     }
 
-    public String getMaterial() {
-        return material;
+    public boolean isPlastic() {
+        return plastic;
     }
 
-    public void setMaterial(String material) {
-        this.material = material;
+    public void setPlastic(String plastic) {
+        this.plastic = plastic.isEmpty();
     }
 
-    public int getPlatesDishes() {
-        return platesDishes;
+    public boolean isGlass() {
+        return glass;
     }
 
-    public void setPlatesDishes(int platesDishes) {
-        this.platesDishes = platesDishes;
+    public void setGlass(boolean glass) {
+        this.glass = glass;
     }
 
-    public int getMagnets() {
-        return magnets;
+    public String getS() {
+        return s;
     }
 
-    public void setMagnets(int magnets) {
-        this.magnets = magnets;
+    public void setS(String s) {
+        this.s = s;
     }
 }

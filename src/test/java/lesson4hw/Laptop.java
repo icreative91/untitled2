@@ -1,17 +1,17 @@
 package lesson4hw;
 
-public class Kitchen {
+public class Laptop {
     private double lenght;
     private double width;
     private double height;
     private double weight;
+    private double diagonal;
+    private String language;
+    private String platform;
     private String colour;
     private String material;
-    private int platesDishes;
-    private int magnets;
 
     //---------------GETTERS/SETTERS---------------
-
 
     public double getLenght() {
         return lenght;
@@ -45,6 +45,30 @@ public class Kitchen {
         this.weight = weight;
     }
 
+    public double getDiagonal() {
+        return diagonal;
+    }
+
+    public void setDiagonal(double diagonal) {
+        this.diagonal = diagonal;
+    }
+
+    public String getLanguage() {
+        return language;
+    }
+
+    public void setLanguage(String language) {
+        this.language = language;
+    }
+
+    public String getPlatform() {
+        return platform;
+    }
+
+    public void setPlatform(String platform) {
+        this.platform = platform;
+    }
+
     public String getColour() {
         return colour;
     }
@@ -60,20 +84,5 @@ public class Kitchen {
     public void setMaterial(String material) {
         this.material = material;
     }
-
-    public int getPlatesDishes() {
-        return platesDishes;
-    }
-
-    public void setPlatesDishes(int platesDishes) {
-        this.platesDishes = platesDishes;
-    }
-
-    public int getMagnets() {
-        return magnets;
-    }
-
-    public void setMagnets(int magnets) {
-        this.magnets = magnets;
-    }
 }
+
